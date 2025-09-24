@@ -18,3 +18,14 @@ function addText() {
         newTask.classList.toggle("completed");
     });
 }
+
+function addComment(){
+    var ci = document.getElementById("CommentInput");
+    var cl = document.getElementById("Comment-list");
+
+    cl.appendChild(ci);
+
+    ci.value="";
+
+
+}
